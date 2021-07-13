@@ -2,7 +2,7 @@
 
 ## Overview 
 ___
-The purpose of this project is to use an unsupervised machine learning algorithm to analyze a dataset of cryptocurrencies. 
+The purpose of this project is to use an unsupervised machine learning algorithm to analyze a dataset of cryptocurrencies. Visualizations displaying groupings of cryptocurrencies and a table of traded showcasing the cryptocurrencies classified by groups is also provided. 
 
 ## Resources
 ___
@@ -29,19 +29,14 @@ Principal Component Analysis (PCA) was used to reduce the traded cryptocurrencie
 
 The scree plot above suggests 4 is be an ideal number of clusters to group the cryptocurrencies using K-Means. 
 
-## 3D-Scatter with the PCA data and the clusters
-3D-Scatter plot 
+3-D Scatter plot 
 ![3d scatter plot](https://raw.githubusercontent.com/asanchez116/Cryptocurrencies/main/Resources/newplot.png)
 
-
-2D-Scatter plot 
-![2d scatter plot](https://raw.githubusercontent.com/asanchez116/Cryptocurrencies/main/Resources/bokeh_plot2.png)
-
-
+The 3-D scatter plot above was obtained using the PCA algorithm to reduce the cryptocyrrencies dimensions to three principal components. 
 
 ### Tradable Cryptocurrencies Table 
-
 ![table](https://raw.githubusercontent.com/asanchez116/Cryptocurrencies/main/Resources/table.png)
 
-Most of the cryptocurrencies are part of class # 1 (n=289) followed by class #0 (n=238)
+The table above includes the predicted clusters and cryptocurrency features. 
 
+Most of the cryptocurrencies are part of class # 1 (n=289) followed by class #0 (n=238)
