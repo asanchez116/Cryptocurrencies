@@ -9,7 +9,7 @@ ___
 * Datasource: [csv](https://github.com/asanchez116/Cryptocurrencies/raw/main/Resources/crypto_data.csv)
 * Software: Python 3.7.7
 
-## Results
+## Results 
 ___
 
 Preprocessing and cleaning of the dataset yielded n=532 cruptocurrencies: 
